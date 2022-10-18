@@ -1,0 +1,5 @@
+UNB+0:3+Fact1:14+3021086390004:14+08062017'
+UNH+1+Code produit 1:D:96A:UN:EAN008'
+UNI+Description du produit 1'
+UNH+2+Code produit 2:D:96A:UN:EAN008'
+UNZ+200.00'

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Moulinette Invoice</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="jstree/themes/default/style.min.css">
+    <link rel="stylesheet" href="hljs/idea.min.css">
+</head>
+<body>
+
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="zip.js"></script>
+<script type="text/javascript" src="jstree/jstree.min.js"></script>
+<script type="text/javascript" src="hljs/highlight.min.js"></script>
+<script type="text/javascript" src="xlsx/xlsx.full.min.js"></script>
+<script type="text/javascript" src="clipboard.min.js"></script>
+
+<script type="text/javascript">
+    var path_pat = /(.*\/)?([^/]+)\/?/;
+    var zip_reader;
+    var zip_entries = {};
+
+    var hlmap = {
+        log: 'nohighlight'
+    };
+
+    function select(e, data) {
+        var nodeId = data.node.id;
+        var fileType = nodeId.match(/\.(\w+)$/)[1];
+        fileType = hlmap[fileType] || fileType;
+        zip_entries[nodeId].getData(new zip.TextWriter(), function(text) {
+            var block = document.querySelector('#text pre code');
+            $(block).removeClass();
+            $(block).addClass(fileType);
+            block.textContent = text;
+            hljs.highlightBlock(block);
+        });
+    }
+
+    function update(file) {
+        zip.createReader(new zip.Data64URIReader(file), function (reader) {
+            zip_reader = reader;
+            reader.getEntries(function (entries) {
+                zip_entries = {};
+
+                var data = entries.map(function (e) {
+                    var m = e.filename.match(path_pat);
+                    var id = m[2];
+                    var parent = m[1] !== undefined ? m[1] : '#';
+                    zip_entries[m[0]] = e;
+                    return { id: m[0], parent: parent, text: id, state: { opened: true } }
+                });
+
+                var tree = $('#tree');
+
+                tree.jstree(true).destroy();
+                tree.jstree({
+                    'core': { 'data': data }
+                });
+                tree.on('changed.jstree', select);
+
+                $('#result').css('display', 'block');
+            })
+        }, function (error) {
+            console.warn(error);
+        });
+    }
+
+    function mappingChanged(e) {
+        var file = e.target.files[0];
+        var reader = new FileReader();
+        reader.onload = function (e) {
+            var data = new Uint8Array(e.target.result);
+            var workbook = XLSX.read(data, {type: 'array'});
+            var options = workbook.SheetNames
+                .filter(function (s) {return s.match(/Correspondance.*/)})
+                .map(function (s) {return '<option value="' + s + '">' + s + '</option>'})
+                .join();
+            var selectElem = $('#mappingName');
+            selectElem.empty();
+            selectElem.append(options);
+        };
+        reader.readAsArrayBuffer(file);
+    }
+    
+    $(function () {
+        var id;
+
+        $('#tree').jstree();
+
+        $('#form1 button').click(function (e) {
+           id = e.target.id;
+        });
+
+        $('#form1').submit(function(e) {
+            if(id === 'pre'){
+                $('#base64').val('true');
+                e.preventDefault();
+                $.ajax({
+                    url: $(this).attr('action'),
+                    type: 'POST',
+                    data: new FormData(this),
+                    processData: false,
+                    contentType: false
+                }).done(function(data) {
+                    update(data);
+                });
+            } else {
+                $('#base64').val('false');
+            }
+        });
+
+        $('#mappingFile').on('change', mappingChanged);
+    });
+</script>
+
+<div class="card border-dark mb-3" style="max-width: 50rem; margin: 1ex auto auto;">
+    <div class="card-header"><h4 class="card-title">Moulinette Invoice</h4></div>
+    <div class="card-body text-dark">
+        <p class="card-text">Sélectionner le fichier de mapping, un fichier de test et l'onglet de mapping à
+            utiliser.</p>
+
+        <form id="form1" action="/mapping/run" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="mappingFile">Fichier Excel de Mapping</label>
+                <input name="mapping" type="file" class="form-control-file col-10" id="mappingFile">
+            </div>
+            <div class="form-group">
+                <label for="sampleFile">Fichier de Test</label>
+                <input name="sample" type="file" class="form-control-file col-10" id="sampleFile">
+            </div>
+            <div class="form-group">
+                <label for="mappingName">Onglet de Mapping</label>
+                <select id="mappingName" name="mappingName" class="form-control col-10"></select>
+            </div>
+            <div class="form-group" style="margin-top: 4ex;">
+                <input id="base64" type="hidden" name="base64"/>
+                <button type="submit" id="zip" class="btn btn-primary">Envoyer</button>
+                <button type="submit" id="pre" class="btn btn-primary">Test</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div id="result" style="display: none;">
+    <div class="card" style="width: 30rem;">
+        <div class="card-header"><h5>Fichiers générés</h5></div>
+        <div id="tree"></div>
+    </div>
+
+    <div id="text">
+        <button id="copy" class="btn" data-clipboard-target="#code">Copier</button>
+        <pre>
+            <code id="code"></code>
+        </pre>
+    </div>
+</div>
+
+</body>
+</html>

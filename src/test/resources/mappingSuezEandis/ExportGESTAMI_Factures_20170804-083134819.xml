@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Invoice>
+    <Customer_File>
+        <EnTeteFacture>
+            <CodeOperation>VT</CodeOperation>
+            <SISource>GESTAMI</SISource>
+            <CodeEntiteSUEZ>K5</CodeEntiteSUEZ>
+            <DematType>C</DematType>
+            <InvoiceType>380</InvoiceType>
+            <InvoiceTypeDesc>Facture</InvoiceTypeDesc>
+            <FacturePrepayee>True</FacturePrepayee>
+            <InvoiceNumber>G17040135</InvoiceNumber>
+            <Lotfacture>lotFacture</Lotfacture>
+            <InvoiceTreatment>9</InvoiceTreatment>
+            <InvoiceDate>2017-04-05</InvoiceDate>
+            <DeliveryDate>2017-04-06</DeliveryDate>
+            <PONum>CPC47785043570</PONum>
+            <PODate>2017-03-31</PODate>
+            <nameMarche>VAL160005</nameMarche>
+            <Currency>EUR</Currency>
+            <PaymentMeanCode>48</PaymentMeanCode>
+            <PaymentMeanTxt>AMEX-OGONE</PaymentMeanTxt>
+            <PaymentConditionsTxt>15 JOURS DATE DE FACTURE</PaymentConditionsTxt>
+            <PaymentDueDate>2017-08-19</PaymentDueDate>
+            <Payment>
+                <Etablissement>1</Etablissement>
+                <Compte>T</Compte>
+                <Centre>14853</Centre>
+                <Activite>334001</Activite>
+                <Destination>000000000</Destination>
+                <PSPID>9490709854</PSPID>
+                <ClientID>9490709854</ClientID>
+                <CardNum>374990669281990</CardNum>
+                <CardExpirationDate>2018-12-18</CardExpirationDate>
+                <CardType>AMEXCPC</CardType>
+                <BankAccount>
+                    <Code>1</Code>
+                    <Country>FR</Country>
+                    <Bank>
+                        <Name>BNP PARIBAS</Name>
+                        <IBAN>FR7630004008280001215105276</IBAN>
+                        <BIC>BNPAFRPPXXX</BIC>
+                        <Currency>EUR</Currency>
+                    </Bank>
+                </BankAccount>
+            </Payment>
+            <SettlementConditions>Aucun escompte pour paiement anticipé</SettlementConditions>
+            <PenaltyConditions>En cas de retard de paiement, le taux d'intérêt des pénalités est égal à trois fois le
+                taux d'intérêt légal par mois. A compter du 1er Janvier 2013, une indemnité forfaitaire pour frais de
+                recouvrement est fixée à 40?, conformément à l'article D441-5 du code du Commerce.
+            </PenaltyConditions>
+            <SupplierShunting>02</SupplierShunting>
+            <Commentaire>
+                <Description>Facture par rapport au devis N°123456 Dept/Unité : MRF/MRER/SUCY Acheteur Mr Dupont Yves
+                    ORDRE D'INTERVENTION N° OICSG17040008 DU 06/04/2017
+                    BON DE COMMANDE N° : CPC47785043570
+
+                    Le Prix de traitement TRT inclut l'incidence de la Taxe Générale sur les Activités Polluantes
+                    PJ : BSD
+                </Description>
+            </Commentaire>
+        </EnTeteFacture>
+        <InfosEmetteur>
+            <Emetteur>
+                <PartyType>SU</PartyType>
+                <PartyRef>G</PartyRef>
+                <EANCode>G</EANCode>
+                <PartyName1>SUEZ RV OSIS IDF Montgeron TPI</PartyName1>
+                <PartyAddress1>98 avenue Jean Jaurès</PartyAddress1>
+                <PartyAddress2/>
+                <PartyAddress3/>
+                <PartyCity>MONTGERON</PartyCity>
+                <PartyPostalCode>91230</PartyPostalCode>
+                <PartyISOCountry>FR</PartyISOCountry>
+                <Siret>41015660800037</Siret>
+                <Siren>410156608</Siren>
+                <PartyTVANum>FR04410156608</PartyTVANum>
+                <PhoneNumber>01.69.83.50.12</PhoneNumber>
+                <FaxNumber>01.69.83.59.01</FaxNumber>
+                <Status>SAS</Status>
+                <Capital>9616293</Capital>
+                <Currency>EUR</Currency>
+                <RCS>RCS Nanterre 410 156 608</RCS>
+                <TaxMode>DEB</TaxMode>
+                <Contact>
+                    <RoleType>ADM</RoleType>
+                    <GivenName>Julien</GivenName>
+                    <FamilyName>Martin</FamilyName>
+                    <EMailAdress>julien.martin@sita.fr</EMailAdress>
+                </Contact>
+            </Emetteur>
+            <SiegeSocial>
+                <PartyType>CO</PartyType>
+                <PartyRef>K5</PartyRef>
+                <EANCode>K5</EANCode>
+                <PartyName1>SUEZ RV OSIS IDF</PartyName1>
+                <PartyAddress1>Petit Nanterre III</PartyAddress1>
+                <PartyAddress2>16 Rue des Peupliers</PartyAddress2>
+                <PartyCity>NANTERRE cedex</PartyCity>
+                <PartyPostalCode>92752</PartyPostalCode>
+                <PartyISOCountry>FR</PartyISOCountry>
+                <Siret>41015660800201</Siret>
+                <Siren>410156608</Siren>
+                <PartyTVANum>FR04410156608</PartyTVANum>
+                <PhoneNumber>01.47.86.55.00</PhoneNumber>
+                <FaxNumber>01.47.86.55.01</FaxNumber>
+                <Status>SAS</Status>
+                <Capital>9616293</Capital>
+                <Currency>EUR</Currency>
+                <RCS>RCS Nanterre 410 156 608</RCS>
+            </SiegeSocial>
+        </InfosEmetteur>
+        <InfosDestinataire>
+            <Destinataire>
+                <PartyType>IV</PartyType>
+                <PartyRef>K522484A</PartyRef>
+                <EANCode>22484A</EANCode>
+                <Webshop>N</Webshop>
+                <PartyName1>Régie Autonome des Transports Parisiens</PartyName1>
+                <PartyName2>RATP AMEX MARCHE 2016</PartyName2>
+                <PartyAddress1>DPT VAL/HAG/CELLULE CPS LAC LC81</PartyAddress1>
+                <PartyAddress2>54 Quai DE LA RAPEE</PartyAddress2>
+                <PartyCity>PARIS CEDEX 12</PartyCity>
+                <PartyPostalCode>75599</PartyPostalCode>
+                <PartyISOCountry>FR</PartyISOCountry>
+                <Siret>77566343801906</Siret>
+                <Siren>775663438</Siren>
+                <PartyTVANum>FR96775663438</PartyTVANum>
+                <PhoneNumber>01.58.77.38.55</PhoneNumber>
+                <BUCode>dm02</BUCode>
+                <BUCodeDesc>Département VAL - Cellule CPS</BUCodeDesc>
+            </Destinataire>
+            <LivreA>
+                <PartyType>DP</PartyType>
+                <PartyRef>22484A</PartyRef>
+                <PartyName1>Régie Autonome des Transports Parisiens</PartyName1>
+                <PartyAddress1>MRB CHARLEBOURG</PartyAddress1>
+                <PartyAddress2>41 BOULEVARD NATIONAL</PartyAddress2>
+                <PartyCity>LA GARENNE COLOMBES</PartyCity>
+                <PartyPostalCode>92250</PartyPostalCode>
+                <PartyISOCountry>FR</PartyISOCountry>
+            </LivreA>
+            <CommandePar>
+                <PartyType>BY</PartyType>
+                <EANCode>22484A</EANCode>
+                <PartyName1>Régie Autonome des Transports Parisiens</PartyName1>
+                <PartyAddress1>DPT VAL/HAD/V2R</PartyAddress1>
+                <PartyAddress2>LAC LC73, 54 Quai DE LA RAPEE</PartyAddress2>
+                <PartyCity>PARIS CEDEX 12</PartyCity>
+                <PartyPostalCode>75599</PartyPostalCode>
+                <PartyISOCountry>FR</PartyISOCountry>
+                <Siret>77566343801906</Siret>
+                <Siren>775663438</Siren>
+                <PartyTVANum>FR96775663438</PartyTVANum>
+                <PhoneNumber>01.58.77.38.55</PhoneNumber>
+                <BUCode>dm02</BUCode>
+                <BUCodeDesc>Département VAL - Cellule CPS</BUCodeDesc>
+            </CommandePar>
+        </InfosDestinataire>
+        <LigneFacture>
+            <LineType>DET</LineType>
+            <LineNum>5</LineNum>
+            <PartDesc>POMPAGE ET NETTOYAGE - FOSSE DE</PartDesc>
+            <PartDescComp>
+                <Desc>DECANTATION AVEC VEHICULE 603</Desc>
+            </PartDescComp>
+            <PartPV>00</PartPV>
+            <PartCode>AVEC COMMANDE</PartCode>
+            <Quantity>1.00000</Quantity>
+            <UnitOfMeasure>SET</UnitOfMeasure>
+            <GrossUnitPrice>1075.65</GrossUnitPrice>
+            <UnitPrice>1075.65</UnitPrice>
+            <LineItemSubTotal>1075.65</LineItemSubTotal>
+            <TaxPercent>20.00</TaxPercent>
+            <SupplierShunting>02</SupplierShunting>
+            <PONum>CPC47785043570</PONum>
+            <PODate>2017-03-31</PODate>
+            <PONumLine>1</PONumLine>
+            <DeliveryDate>2017-04-06</DeliveryDate>
+            <CodeActivite>A02</CodeActivite>
+            <CodePrestation>FOS</CodePrestation>
+        </LigneFacture>
+        <LigneFacture>
+            <LineType>DET</LineType>
+            <LineNum>6</LineNum>
+            <PartDesc>POMPAGE ET NETTOYAGE - FOSSE DE</PartDesc>
+            <PartDescComp>
+                <Desc>DECANTATION AVEC VEHICULE 569</Desc>
+            </PartDescComp>
+            <PartPV>00</PartPV>
+            <PartCode>AVEC COMMANDE</PartCode>
+            <Quantity>1.00000</Quantity>
+            <UnitOfMeasure>SET</UnitOfMeasure>
+            <GrossUnitPrice>944.35</GrossUnitPrice>
+            <UnitPrice>944.35</UnitPrice>
+            <LineItemSubTotal>944.35</LineItemSubTotal>
+            <TaxPercent>20.00</TaxPercent>
+            <SupplierShunting>02</SupplierShunting>
+            <PONum>CPC47785043570</PONum>
+            <PODate>2017-03-31</PODate>
+            <PONumLine>1</PONumLine>
+            <DeliveryDate>2017-04-06</DeliveryDate>
+            <CodeActivite>A02</CodeActivite>
+            <CodePrestation>FOS</CodePrestation>
+        </LigneFacture>
+        <LigneFacture>
+            <LineType>DET</LineType>
+            <LineNum>7</LineNum>
+            <PartDesc>TRAITEMENT DES DECHETS - BSD</PartDesc>
+            <PartDescComp>
+                <Desc>N°6-2017-2083</Desc>
+            </PartDescComp>
+            <PartPV>00</PartPV>
+            <PartCode>AVEC COMMANDE</PartCode>
+            <Quantity>4.05000</Quantity>
+            <UnitOfMeasure>TNE</UnitOfMeasure>
+            <GrossUnitPrice>87.81</GrossUnitPrice>
+            <UnitPrice>87.81</UnitPrice>
+            <LineItemSubTotal>355.63</LineItemSubTotal>
+            <TaxPercent>20.00</TaxPercent>
+            <SupplierShunting>02</SupplierShunting>
+            <PONum>CPC47785043570</PONum>
+            <PODate>2017-03-31</PODate>
+            <PONumLine>1</PONumLine>
+            <DeliveryDate>2017-04-06</DeliveryDate>
+            <CodeActivite>C01</CodeActivite>
+            <CodePrestation>019</CodePrestation>
+        </LigneFacture>
+        <LigneTVA>
+            <TaxableAmount>2375.63</TaxableAmount>
+            <TaxPercent>20.00</TaxPercent>
+            <TaxAmount>475.13</TaxAmount>
+            <GrossAmount>2850.76</GrossAmount>
+            <TaxMode>DEB</TaxMode>
+            <TypeExo/>
+            <TexteTypeExo/>
+        </LigneTVA>
+        <TotalFacture>
+            <TotalNet>2375.63</TotalNet>
+            <TotalNetAmount>2375.63</TotalNetAmount>
+            <TotalTaxAmount>475.13</TotalTaxAmount>
+            <GrossAmount>2850.76</GrossAmount>
+            <DepositAmount>-0.00</DepositAmount>
+            <TotalDiscount>0.00</TotalDiscount>
+            <PaymentAmount>2850.76</PaymentAmount>
+        </TotalFacture>
+    </Customer_File>
+</Invoice>

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice>
+    <Customer_File>
+        <EnTeteFacture>
+            <CodeOperation>VT</CodeOperation>
+            <SISource>CLEAR</SISource>
+            <CodeEntiteSUEZ>G0</CodeEntiteSUEZ>
+            <DematType>E</DematType>
+            <InvoiceType>380</InvoiceType>
+            <InvoiceTypeDesc>Facture</InvoiceTypeDesc>
+            <FacturePrepayee>false</FacturePrepayee>
+            <InvoiceNumber>G040140966</InvoiceNumber>
+            <Lotfacture>167275</Lotfacture>
+            <InvoiceInternalCode>0x00000000212fc7d4</InvoiceInternalCode>
+            <InvoiceTreatment>9</InvoiceTreatment>
+            <InvoiceDate>2017-05-31</InvoiceDate>
+            <AccountDate>2017-05-31</AccountDate>
+            <NumContract/>
+            <StartDate>2017-05-01</StartDate>
+            <EndDate>2017-05-31</EndDate>
+            <PONum>60377736</PONum>
+            <nameMarche/>
+            <Currency>EUR</Currency>
+            <PaymentMeanCode>20</PaymentMeanCode>
+            <PaymentMeanTxt>Chèque</PaymentMeanTxt>
+            <PaymentDueDate>2017-07-30</PaymentDueDate>
+            <Payment>
+                <BankAccount>
+                    <Country>FR</Country>
+                    <Bank>
+                        <Name>BNP PARIBAS</Name>
+                        <IBAN>FR7630004008280001216269276</IBAN>
+                        <BIC>BNPAFRPP</BIC>
+                        <Currency>EUR</Currency>
+                    </Bank>
+                </BankAccount>
+            </Payment>
+            <SettlementConditions>Aucun escompte pour paiement anticipÚ</SettlementConditions>
+            <PenaltyConditions>SI RETARD, SERONT APPLIQUEES DES PENALITES EGALES A 3 FOIS LE TAUX D'INTERET LEGAL PLUS
+                INDEMNITE FORFAITAIRE MINI DE 40E POUR FRAIS DE RECOUVREMENT PLUS FRAIS COMPLEMENTAIRES SUR
+                JUSTIFICATIFS.
+            </PenaltyConditions>
+            <SupplierShunting>02</SupplierShunting>
+            <WaitingForPJP>
+            </WaitingForPJP>
+            <Exposable>true</Exposable>
+        </EnTeteFacture>
+        <InfosEmetteur>
+            <Emetteur>
+                <PartyType>SU</PartyType>
+                <PartyRef>G040</PartyRef>
+                <EANCode>G040</EANCode>
+                <PartyName1>SUEZ RV Centre Ouest</PartyName1>
+                <PartyName2>AGENCE ENTREPRISES 18-28-45</PartyName2>
+                <PartyAddress1>ZA de Conneuil-6 Rue Gaspard Monge</PartyAddress1>
+                <PartyAddress2/>
+                <PartyAddress3/>
+                <PartyCity>MONTLOUIS SUR LOIRE</PartyCity>
+                <PartyPostalCode>37270</PartyPostalCode>
+                <PartyISOCountry>FR</PartyISOCountry>
+                <Siret>34300451100550</Siret>
+                <Siren>343004511</Siren>
+                <PartyTVANum>FR 06343004511</PartyTVANum>
+                <PhoneNumber>0247358800</PhoneNumber>
+                <FaxNumber>0247358849</FaxNumber>
+                <Status>SAS</Status>
+                <Capital>500004</Capital>
+                <Currency>EUR</Currency>
+                <RCS>RC TOURS B 343 004 511</RCS>
+                <TaxMode>ENC</TaxMode>
+            </Emetteur>
+            <SiegeSocial>
+                <PartyType>CO</PartyType>
+                <PartyRef>G001</PartyRef>
+                <EANCode>G001</EANCode>
+                <PartyName1>SUEZ RV Centre Ouest</PartyName1>
+                <PartyName2>SUEZ RV Centre Ouest - Siège</PartyName2>
+                <PartyAddress1>Rue Terre Adélie Parc Edonia CS86820</PartyAddress1>
+                <PartyCity>ST GREGOIRE CEDEX</PartyCity>
+                <PartyPostalCode>35769</PartyPostalCode>
+                <PartyISOCountry>FR</PartyISOCountry>
+                <Siret>34300451100386</Siret>
+                <Siren>343004511</Siren>
+                <PartyTVANum>FR 06343004511</PartyTVANum>
+                <PhoneNumber>0223212300</PhoneNumber>
+                <FaxNumber>0223212310</FaxNumber>
+                <Status>SA</Status>
+                <Capital>500 004,00</Capital>
+                <Currency>EUR</Currency>
+                <RCS>TOURS</RCS>
+            </SiegeSocial>
+        </InfosEmetteur>
+        <InfosDestinataire>
+            <Destinataire>
+                <PartyType>IV</PartyType>
+                <PartyRef>G0347374</PartyRef>
+                <EANCode>7148347374</EANCode>
+                <Webshop>NON</Webshop>
+                <PartyName1>ORANGE</PartyName1>
+                <PartyName2>CSPCF</PartyName2>
+                <PartyAddress1>ORANGE</PartyAddress1>
+                <PartyAddress2>TSA 282016</PartyAddress2>
+                <PartyAddress3>ORANGE</PartyAddress3>
+                <PartyCity>ROUEN CEDEX</PartyCity>
+                <PartyPostalCode>76721</PartyPostalCode>
+                <PartyISOCountry>FR</PartyISOCountry>
+                <Siret>38012986600014</Siret>
+                <Siren>380129866</Siren>
+                <PartyTVANum>FR89380129866</PartyTVANum>
+                <PhoneNumber>0247213079/0387556339</PhoneNumber>
+                <FaxNumber>0247213482</FaxNumber>
+                <BUCode>380129866</BUCode>
+            </Destinataire>
+            <LivreA>
+                <PartyType>DP</PartyType>
+                <PartyRef>FRANCE TELECOM VILLEMANDEUR</PartyRef>
+                <EANCode/>
+                <PartyName1>FRANCE TELECOM VILLEMANDEUR</PartyName1>
+                <PartyAddress1>22 B RUE DE LA BARAUDIERE</PartyAddress1>
+                <PartyCity>VILLEMANDEUR</PartyCity>
+                <PartyPostalCode>45700</PartyPostalCode>
+                <PartyISOCountry>FR</PartyISOCountry>
+                <Siret>38012986642792</Siret>
+                <Siren>380129866</Siren>
+                <Contact/>
+            </LivreA>
+            <CommandePar>
+                <PartyType>BY</PartyType>
+                <EANCode/>
+                <PartyName1>FRANCE TELECOM VILLEMANDEUR</PartyName1>
+                <PartyAddress1>22 B RUE DE LA BARAUDIERE</PartyAddress1>
+                <PartyCity>VILLEMANDEUR</PartyCity>
+                <PartyPostalCode>45700</PartyPostalCode>
+                <PartyISOCountry/>
+                <Siret>38012986642792</Siret>
+                <Siren>380129866</Siren>
+            </CommandePar>
+        </InfosDestinataire>
+        <LigneFacture>
+            <LineType>DET</LineType>
+            <LineNum>0001</LineNum>
+            <LineDestination>exploitation</LineDestination>
+            <LineAnalytic>AN</LineAnalytic>
+            <PartDesc>Collecte Conteneur ECO DI 7 m3 20%</PartDesc>
+            <PartPV>00</PartPV>
+            <PartCode>SER</PartCode>
+            <Quantity>1.00</Quantity>
+            <UnitOfMeasure>PCE</UnitOfMeasure>
+            <GrossUnitPrice>81.0</GrossUnitPrice>
+            <UnitPrice>81.0</UnitPrice>
+            <LineItemSubTotal>81.0</LineItemSubTotal>
+            <TaxPercent>20.0</TaxPercent>
+            <SupplierShunting>02</SupplierShunting>
+            <PONum/>
+            <PONumLine>1</PONumLine>
+            <CodeActivite>BRADI</CodeActivite>
+            <CodePrestation>203ED073_DB</CodePrestation>
+            <MatiereRef>A100ST</MatiereRef>
+            <MatiereTxt>Déchets non recyclables en mélange</MatiereTxt>
+            <CommercialFileNum>G045005977</CommercialFileNum>
+        </LigneFacture>
+        <LigneFacture>
+            <LineType>DET</LineType>
+            <LineNum>0002</LineNum>
+            <LineDestination>exploitation</LineDestination>
+            <LineAnalytic>AN</LineAnalytic>
+            <PartDesc>Location Conteneur TP 7 m3 20%</PartDesc>
+            <PartPV>00</PartPV>
+            <PartCode>SER</PartCode>
+            <Quantity>1.00</Quantity>
+            <UnitOfMeasure>PCE</UnitOfMeasure>
+            <GrossUnitPrice>45.0</GrossUnitPrice>
+            <UnitPrice>45.0</UnitPrice>
+            <LineItemSubTotal>45.0</LineItemSubTotal>
+            <TaxPercent>20.0</TaxPercent>
+            <SupplierShunting>02</SupplierShunting>
+            <PONum/>
+            <CodeActivite>BRADI</CodeActivite>
+            <CodePrestation>100TP073_DB</CodePrestation>
+            <MatiereRef>F101</MatiereRef>
+            <MatiereTxt>Ferrailles légères</MatiereTxt>
+            <CEDRef>191202</CEDRef>
+            <CEDTxt>Métaux ferreux issus trait. méca.</CEDTxt>
+            <CommercialFileNum>G045006017</CommercialFileNum>
+        </LigneFacture>
+        <LigneFacture>
+            <LineType>DET</LineType>
+            <LineNum>0003</LineNum>
+            <LineDestination>exploitation</LineDestination>
+            <LineAnalytic>AN</LineAnalytic>
+            <PartDesc>Location Conteneur TP 7 m3 20%</PartDesc>
+            <PartPV>00</PartPV>
+            <PartCode>SER</PartCode>
+            <Quantity>1.00</Quantity>
+            <UnitOfMeasure>PCE</UnitOfMeasure>
+            <GrossUnitPrice>45.0</GrossUnitPrice>
+            <UnitPrice>45.0</UnitPrice>
+            <LineItemSubTotal>45.0</LineItemSubTotal>
+            <TaxPercent>20.0</TaxPercent>
+            <SupplierShunting>02</SupplierShunting>
+            <PONum/>
+            <CodeActivite>BRADI</CodeActivite>
+            <CodePrestation>100TP073_DB</CodePrestation>
+            <MatiereRef>F101</MatiereRef>
+            <MatiereTxt>Ferrailles légères</MatiereTxt>
+            <CEDRef>191202</CEDRef>
+            <CEDTxt>Métaux ferreux issus trait. méca.</CEDTxt>
+            <CommercialFileNum>G045006017</CommercialFileNum>
+        </LigneFacture>
+        <LigneFacture>
+            <LineType>DET</LineType>
+            <LineNum>0004</LineNum>
+            <LineDestination>exploitation</LineDestination>
+            <LineAnalytic>AN</LineAnalytic>
+            <PartDesc>Location Conteneur TP 7 m3 20%</PartDesc>
+            <PartPV>00</PartPV>
+            <PartCode>SER</PartCode>
+            <Quantity>1.00</Quantity>
+            <UnitOfMeasure>PCE</UnitOfMeasure>
+            <GrossUnitPrice>45.0</GrossUnitPrice>
+            <UnitPrice>45.0</UnitPrice>
+            <LineItemSubTotal>45.0</LineItemSubTotal>
+            <TaxPercent>20.0</TaxPercent>
+            <SupplierShunting>02</SupplierShunting>
+            <PONum/>
+            <CodeActivite>BRADI</CodeActivite>
+            <CodePrestation>100TP073_DB</CodePrestation>
+            <MatiereRef>F101</MatiereRef>
+            <MatiereTxt>Ferrailles légères</MatiereTxt>
+            <CEDRef>191202</CEDRef>
+            <CEDTxt>Métaux ferreux issus trait. méca.</CEDTxt>
+            <CommercialFileNum>G045006017</CommercialFileNum>
+        </LigneFacture>
+        <LigneFacture>
+            <LineType>DET</LineType>
+            <LineNum>0005</LineNum>
+            <LineDestination>exploitation</LineDestination>
+            <LineAnalytic>AN</LineAnalytic>
+            <PartDesc>Location Conteneur TP 7 m3 20%</PartDesc>
+            <PartPV>00</PartPV>
+            <PartCode>SER</PartCode>
+            <Quantity>2.00</Quantity>
+            <UnitOfMeasure>PCE</UnitOfMeasure>
+            <GrossUnitPrice>45.0</GrossUnitPrice>
+            <UnitPrice>45.0</UnitPrice>
+            <LineItemSubTotal>90.0</LineItemSubTotal>
+            <TaxPercent>20.0</TaxPercent>
+            <SupplierShunting>02</SupplierShunting>
+            <PONum/>
+            <PONumLine>1</PONumLine>
+            <CodeActivite>BRADI</CodeActivite>
+            <CodePrestation>100TP073_DB</CodePrestation>
+            <MatiereRef>F101</MatiereRef>
+            <MatiereTxt>Ferrailles légères</MatiereTxt>
+            <CEDRef>191202</CEDRef>
+            <CEDTxt>Métaux ferreux issus trait. méca.</CEDTxt>
+            <CommercialFileNum>G045006017</CommercialFileNum>
+        </LigneFacture>
+        <LigneFacture>
+            <LineType>DET</LineType>
+            <LineNum>0006</LineNum>
+            <LineDestination>exploitation</LineDestination>
+            <LineAnalytic>AN</LineAnalytic>
+            <PartDesc>Collecte Conteneur TP 7 m3 20%</PartDesc>
+            <PartPV>00</PartPV>
+            <PartCode>SER</PartCode>
+            <Quantity>1.00</Quantity>
+            <UnitOfMeasure>PCE</UnitOfMeasure>
+            <GrossUnitPrice>160.0</GrossUnitPrice>
+            <UnitPrice>160.0</UnitPrice>
+            <LineItemSubTotal>160.0</LineItemSubTotal>
+            <TaxPercent>20.0</TaxPercent>
+            <SupplierShunting>02</SupplierShunting>
+            <PONum/>
+            <PONumLine>1</PONumLine>
+            <CodeActivite>BRADI</CodeActivite>
+            <CodePrestation>203TP073_DB</CodePrestation>
+            <MatiereRef>F101</MatiereRef>
+            <MatiereTxt>Ferrailles légères</MatiereTxt>
+            <CommercialFileNum>G045006017</CommercialFileNum>
+        </LigneFacture>
+        <LigneTVA>
+            <TaxableAmount>466.0</TaxableAmount>
+            <TaxPercent>20.0</TaxPercent>
+            <TaxAmount>93.2</TaxAmount>
+            <GrossAmount>559.2</GrossAmount>
+            <TaxMode>ENC</TaxMode>
+        </LigneTVA>
+        <TotalFacture>
+            <TotalNet>466.0</TotalNet>
+            <TotalNetAmount>466.0</TotalNetAmount>
+            <TotalTaxAmount>93.2</TotalTaxAmount>
+            <GrossAmount>559.2</GrossAmount>
+            <PaymentAmount>559.2</PaymentAmount>
+        </TotalFacture>
+    </Customer_File>
+</Invoice>

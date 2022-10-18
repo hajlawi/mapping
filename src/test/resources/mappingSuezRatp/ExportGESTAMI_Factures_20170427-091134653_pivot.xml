@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice>
+  <Customer_File>
+    <EnTeteFacture>
+      <CodeOperation>VT</CodeOperation>
+      <SISource>GESTAMI</SISource>
+      <CodeEntiteSUEZ>K5</CodeEntiteSUEZ>
+      <DematType>C</DematType>
+      <InvoiceType>380</InvoiceType>
+      <InvoiceTypeDesc>Facture</InvoiceTypeDesc>
+      <FacturePrepayee>True</FacturePrepayee>
+      <InvoiceNumber>G17030005</InvoiceNumber>
+      <Lotfacture>lotFacture</Lotfacture>
+      <InvoiceTreatment>9</InvoiceTreatment>
+      <InvoiceDate>2017-03-31</InvoiceDate>
+      <PONum>CPC46760042594</PONum>
+      <PODate>2017-02-24</PODate>
+      <nameMarche>VAL160005</nameMarche>
+      <Currency>EUR</Currency>
+      <PaymentMeanCode>48</PaymentMeanCode>
+      <PaymentMeanTxt>AMEX-OGONE</PaymentMeanTxt>
+      <PaymentConditionsTxt>15 JOURS DATE DE FACTURE</PaymentConditionsTxt>
+      <PaymentDueDate>2017-05-12</PaymentDueDate>
+      <Payment>
+        <Etablissement>1</Etablissement>
+        <Compte>T</Compte>
+        <Centre>00713</Centre>
+        <Activite>321302</Activite>
+        <Destination>000000000</Destination>
+        <PSPID>9490709854</PSPID>
+        <ClientID>9490709854</ClientID>
+        <CardNum>374990669281990</CardNum>
+        <CardExpirationDate>2018-12-18</CardExpirationDate>
+        <CardType>AMEXCPC</CardType>
+        <BankAccount>
+          <Code>1</Code>
+          <Country>FR</Country>
+          <Bank>
+            <Name>BNP PARIBAS</Name>
+            <IBAN>FR7630004008280001215105276</IBAN>
+            <BIC>BNPAFRPPXXX</BIC>
+            <Currency>EUR</Currency>
+          </Bank>
+        </BankAccount>
+      </Payment>
+      <SettlementConditions>Aucun escompte pour paiement anticipé</SettlementConditions>
+      <PenaltyConditions>En cas de retard de paiement, il sera appliqué des pénalités de 3 fois le taux d'intérêts légal en vigeur par mois (loi LME du 04/08/2008), exception faite des Marchés Publics qui restent soumis aux intérêts moratoires.</PenaltyConditions>
+      <SupplierShunting>02</SupplierShunting>
+      <Commentaire>
+        <Description>ORDRE D'INTERVENTION N° 7510B0011940  DU  15/12/2016
+DEVIS N° : G2016EW0770 DU 20/12/2016
+POMPAGE ET NETTOYAGE D'UNE FOSSE DE RELEVAGE EAUX USEES
+ Liste des OI:7510B0011940</Description>
+      </Commentaire>
+    </EnTeteFacture>
+    <InfosEmetteur>
+      <Emetteur>
+        <PartyType>SU</PartyType>
+        <PartyRef>G</PartyRef>
+        <EANCode>G</EANCode>
+        <PartyName1>SUEZ RV OSIS IDF Montgeron TPI</PartyName1>
+        <PartyAddress1>98 avenue Jean Jaurès</PartyAddress1>
+        <PartyAddress2 />
+        <PartyAddress3 />
+        <PartyCity>MONTGERON</PartyCity>
+        <PartyPostalCode>91230</PartyPostalCode>
+        <PartyISOCountry>FR</PartyISOCountry>
+        <Siret>41015660800037</Siret>
+        <Siren>410156608</Siren>
+        <PartyTVANum>FR04410156608</PartyTVANum>
+        <PhoneNumber>01.69.83.50.12</PhoneNumber>
+        <FaxNumber>01.69.83.59.01</FaxNumber>
+        <Status>SAS</Status>
+        <Capital>9616293</Capital>
+        <Currency>EUR</Currency>
+        <RCS>RCS Nanterre 410 156 608</RCS>
+        <TaxMode>DEB</TaxMode>
+        <Contact>
+          <RoleType>ADM</RoleType>
+          <GivenName>Julien</GivenName>
+          <FamilyName>Martin</FamilyName>
+          <EMailAdress>julien.martin@sita.fr</EMailAdress>
+        </Contact>
+      </Emetteur>
+      <SiegeSocial>
+        <PartyType>CO</PartyType>
+        <PartyRef>K5</PartyRef>
+        <EANCode>K5</EANCode>
+        <PartyName1>SUEZ RV OSIS IDF</PartyName1>
+        <PartyAddress1>Petit Nanterre III</PartyAddress1>
+        <PartyAddress2>16 Rue des Peupliers</PartyAddress2>
+        <PartyCity>NANTERRE cedex</PartyCity>
+        <PartyPostalCode>92752</PartyPostalCode>
+        <PartyISOCountry>FR</PartyISOCountry>
+        <Siret>41015660800201</Siret>
+        <Siren>410156608</Siren>
+        <PartyTVANum>FR04410156608</PartyTVANum>
+        <PhoneNumber>01.47.86.55.00</PhoneNumber>
+        <FaxNumber>01.47.86.55.01</FaxNumber>
+        <Status>SAS</Status>
+        <Capital>9616293</Capital>
+        <Currency>EUR</Currency>
+        <RCS>RCS Nanterre 410 156 608</RCS>
+      </SiegeSocial>
+    </InfosEmetteur>
+    <InfosDestinataire>
+      <Destinataire>
+        <PartyType>IV</PartyType>
+        <PartyRef>K522484A</PartyRef>
+        <EANCode>22484A</EANCode>
+        <Webshop>N</Webshop>
+        <PartyName1>Régie Autonome des Transports Parisiens</PartyName1>
+        <PartyName2>RATP AMEX MARCHE 2016</PartyName2>
+        <PartyAddress1>CGF - COMPTABILITE FOURNISSEURS LAC</PartyAddress1>
+        <PartyAddress2>52-54 QUAI DE LA RAPEE</PartyAddress2>
+        <PartyCity>PARIS CEDEX 12</PartyCity>
+        <PartyPostalCode>75599</PartyPostalCode>
+        <PartyISOCountry>FR</PartyISOCountry>
+        <Siret>77566343801906</Siret>
+        <Siren>775663438</Siren>
+        <PartyTVANum>FR96775663438</PartyTVANum>
+        <PhoneNumber>0158773855</PhoneNumber>
+        <BUCode>dm02</BUCode>
+        <BUCodeDesc>Département HAL - Cellule CPS</BUCodeDesc>
+      </Destinataire>
+      <LivreA>
+        <PartyType>DP</PartyType>
+        <PartyRef>22484A</PartyRef>
+        <PartyName1>Régie Autonome des Transports Parisiens</PartyName1>
+        <PartyAddress1>STATION GARE DE LYON L14 -</PartyAddress1>
+        <PartyAddress2>201 RUE DE BERCY</PartyAddress2>
+        <PartyCity>PARIS</PartyCity>
+        <PartyPostalCode>75012</PartyPostalCode>
+        <PartyISOCountry>FR</PartyISOCountry>
+      </LivreA>
+      <CommandePar>
+        <PartyType>BY</PartyType>
+        <EANCode>22484A</EANCode>
+        <PartyName1>Régie Autonome des Transports Parisiens</PartyName1>
+        <PartyAddress1>STATION GARE DE LYON L14 -</PartyAddress1>
+        <PartyAddress2>201 RUE DE BERCY</PartyAddress2>
+        <PartyCity>PARIS</PartyCity>
+        <PartyPostalCode>75012</PartyPostalCode>
+        <PartyISOCountry>FR</PartyISOCountry>
+        <Siret>77566343801906</Siret>
+        <Siren>775663438</Siren>
+        <PartyTVANum>FR96775663438</PartyTVANum>
+        <PhoneNumber>0158773855</PhoneNumber>
+        <BUCode>dm02</BUCode>
+        <BUCodeDesc>Département HAL - Cellule CPS</BUCodeDesc>
+      </CommandePar>
+    </InfosDestinataire>
+    <LigneFacture>
+      <LineType>DET</LineType>
+      <LineNum>4</LineNum>
+      <PartDesc>12/12/2016 - 583</PartDesc>
+      <PartPV>00</PartPV>
+      <PartCode>AVEC COMMANDE</PartCode>
+      <Quantity>1.00000</Quantity>
+      <UnitOfMeasure>SET</UnitOfMeasure>
+      <GrossUnitPrice>1889.00</GrossUnitPrice>
+      <UnitPrice>1889.00</UnitPrice>
+      <LineItemSubTotal>1889.00</LineItemSubTotal>
+      <TaxPercent>20.00</TaxPercent>
+      <SupplierShunting>02</SupplierShunting>
+      <PONum>CPC46760042594</PONum>
+      <PODate>2017-02-24</PODate>
+      <PONumLine>4</PONumLine>
+      <DeliveryDate>2016-12-15</DeliveryDate>
+      <CodeActivite>A02</CodeActivite>
+      <CodePrestation>997</CodePrestation>
+    </LigneFacture>
+    <LigneFacture>
+      <LineType>DET</LineType>
+      <LineNum>5</LineNum>
+      <PartDesc>13/12/2016 - 583</PartDesc>
+      <PartPV>00</PartPV>
+      <PartCode>AVEC COMMANDE</PartCode>
+      <Quantity>1.00000</Quantity>
+      <UnitOfMeasure>SET</UnitOfMeasure>
+      <GrossUnitPrice>1889.00</GrossUnitPrice>
+      <UnitPrice>1889.00</UnitPrice>
+      <LineItemSubTotal>1889.00</LineItemSubTotal>
+      <TaxPercent>20.00</TaxPercent>
+      <SupplierShunting>02</SupplierShunting>
+      <PONum>CPC46760042594</PONum>
+      <PODate>2017-02-24</PODate>
+      <PONumLine>5</PONumLine>
+      <DeliveryDate>2016-12-15</DeliveryDate>
+      <CodeActivite>A02</CodeActivite>
+      <CodePrestation>997</CodePrestation>
+    </LigneFacture>
+    <LigneFacture>
+      <LineType>DET</LineType>
+      <LineNum>6</LineNum>
+      <PartDesc>14/12/2016 - 583</PartDesc>
+      <PartPV>00</PartPV>
+      <PartCode>AVEC COMMANDE</PartCode>
+      <Quantity>1.00000</Quantity>
+      <UnitOfMeasure>SET</UnitOfMeasure>
+      <GrossUnitPrice>1889.00</GrossUnitPrice>
+      <UnitPrice>1889.00</UnitPrice>
+      <LineItemSubTotal>1889.00</LineItemSubTotal>
+      <TaxPercent>20.00</TaxPercent>
+      <SupplierShunting>02</SupplierShunting>
+      <PONum>CPC46760042594</PONum>
+      <PODate>2017-02-24</PODate>
+      <PONumLine>6</PONumLine>
+      <DeliveryDate>2016-12-15</DeliveryDate>
+      <CodeActivite>A02</CodeActivite>
+      <CodePrestation>997</CodePrestation>
+    </LigneFacture>
+    <LigneFacture>
+      <LineType>DET</LineType>
+      <LineNum>7</LineNum>
+      <PartDesc>15/12/2016 - 583</PartDesc>
+      <PartPV>00</PartPV>
+      <PartCode>AVEC COMMANDE</PartCode>
+      <Quantity>1.00000</Quantity>
+      <UnitOfMeasure>SET</UnitOfMeasure>
+      <GrossUnitPrice>1889.00</GrossUnitPrice>
+      <UnitPrice>1889.00</UnitPrice>
+      <LineItemSubTotal>1889.00</LineItemSubTotal>
+      <TaxPercent>20.00</TaxPercent>
+      <SupplierShunting>02</SupplierShunting>
+      <PONum>CPC46760042594</PONum>
+      <PODate>2017-02-24</PODate>
+      <PONumLine>7</PONumLine>
+      <DeliveryDate>2016-12-15</DeliveryDate>
+      <CodeActivite>A02</CodeActivite>
+      <CodePrestation>997</CodePrestation>
+    </LigneFacture>
+    <LigneFacture>
+      <LineType>DET</LineType>
+      <LineNum>8</LineNum>
+      <PartDesc>MAJORATION NUIT</PartDesc>
+      <PartPV>00</PartPV>
+      <PartCode>AVEC COMMANDE</PartCode>
+      <Quantity>4.00000</Quantity>
+      <UnitOfMeasure>SET</UnitOfMeasure>
+      <GrossUnitPrice>888.00</GrossUnitPrice>
+      <UnitPrice>888.00</UnitPrice>
+      <LineItemSubTotal>3552.00</LineItemSubTotal>
+      <TaxPercent>20.00</TaxPercent>
+      <SupplierShunting>02</SupplierShunting>
+      <PONum>CPC46760042594</PONum>
+      <PODate>2017-02-24</PODate>
+      <PONumLine>8</PONumLine>
+      <DeliveryDate>2016-12-15</DeliveryDate>
+      <CodeActivite>A02</CodeActivite>
+      <CodePrestation>997</CodePrestation>
+    </LigneFacture>
+    <LigneTVA>
+      <TaxableAmount>11108.00</TaxableAmount>
+      <TaxPercent>20.00</TaxPercent>
+      <TaxAmount>2221.60</TaxAmount>
+      <GrossAmount>13329.60</GrossAmount>
+      <TaxMode>DEB</TaxMode>
+      <TypeExo />
+      <TexteTypeExo />
+    </LigneTVA>
+    <TotalFacture>
+      <TotalNet>11108.00</TotalNet>
+      <TotalNetAmount>11108.00</TotalNetAmount>
+      <TotalTaxAmount>2221.60</TotalTaxAmount>
+      <GrossAmount>13329.60</GrossAmount>
+      <TotalDiscount>0.00</TotalDiscount>
+      <PaymentAmount>13329.60</PaymentAmount>
+    </TotalFacture>
+  </Customer_File>
+</Invoice>

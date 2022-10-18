@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Facture-TESSI_INVOICE>
+	<Facture>
+		<EnTeteFacture>
+			<CodeOperation>VT</CodeOperation>
+			<SISource>HECATE</SISource>
+			<CodeEntiteSUEZ>Y3</CodeEntiteSUEZ>
+			<DematType>E</DematType>
+			<InvoiceType>380</InvoiceType>
+			<InvoiceTypeDesc>Facture</InvoiceTypeDesc>
+			<InvoiceNumber>GGF17B0046</InvoiceNumber>
+			<Lotfacture>1124592</Lotfacture>
+			<InvoiceTreatment>9</InvoiceTreatment>
+			<InvoiceDate>2017-02-13</InvoiceDate>
+			<PONum>N°Marché 2009/76</PONum>
+			<RefInvoiceList />
+			<Currency>EUR</Currency>
+			<PaymentMeanCode>30</PaymentMeanCode>
+			<PaymentMeanTxt>Virement</PaymentMeanTxt>
+			<PaymentConditionsTxt>45 jours date de facture</PaymentConditionsTxt>
+			<PaymentDueDate>2017-03-30</PaymentDueDate>
+			<Payments>
+				<Payment>
+					<BankAccount>
+						<Bank />
+						<Agency />
+						<Account />
+						<Key>76</Key>
+					</BankAccount>
+				</Payment>
+			</Payments>
+			<SettlementConditions>Il n'est pas pratiqué d'escompte en cas de paiement anticipé.</SettlementConditions>
+			<PenaltyConditions>En cas de retard de paiement, le taux d'intérêt des pénalités est égal à trois fois le taux d'intérêt légal par mois. A compter du 1er Janvier 2013, une indemnité forfaitaire pour frais de recouvrement est fixée à 40€, conformément à l'article D441-5 du code du Commerce.</PenaltyConditions>
+			<WaitingForPJP />
+			<PJName />
+			<PJImageName />
+			<Commentaire>
+				<Description>Des questions sur la facture, joindre Vanessa MOULIN au 04.72.49.53.43, Fax : 04.72.49.24.98</Description>
+			</Commentaire>
+			<Exposable>true</Exposable>
+		</EnTeteFacture>
+		<InfosEmetteur>
+			<Emetteur>
+				<PartyType>SU</PartyType>
+				<PartyRef>Y3</PartyRef>
+				<EANCode>GIV</EANCode>
+				<PartyName1>SUEZ RR IWS CHEM. GIVORS</PartyName1>
+				<PartyName2>GIVORS</PartyName2>
+				<PartyAddress1>CHEMIN DES VORGINES</PartyAddress1>
+				<PartyAddress2>CS 10508</PartyAddress2>
+				<PartyAddress3>BP 98</PartyAddress3>
+				<PartyCity>GIVORS</PartyCity>
+				<PartyPostalCode>69702</PartyPostalCode>
+				<PartyISOCountry>FR</PartyISOCountry>
+				<Siret>00000000020015</Siret>
+				<Siren>000000000</Siren>
+				<PartyTVANum>FR92444548440</PartyTVANum>
+				<APENumber>3822Z</APENumber>
+				<PhoneNumber>04.72.49.21.60</PhoneNumber>
+				<FaxNumber>04.72.49.21.65</FaxNumber>
+				<Status>SAS</Status>
+				<Capital>5165300</Capital>
+				<Currency>EUR</Currency>
+				<PartyGroupCode>S2013</PartyGroupCode>
+				<RCS />
+				<TaxMode>ENC</TaxMode>
+			</Emetteur>
+			<SiegeSocial>
+				<PartyType>CO</PartyType>
+				<PartyRef>Y3</PartyRef>
+				<EANCode>Y3</EANCode>
+				<PartyName1>TAA081FOURNISSEUR</PartyName1>
+				<PartyAddress1>1 rue Test</PartyAddress1>
+				<PartyCity>Test</PartyCity>
+				<PartyPostalCode>75000</PartyPostalCode>
+				<PartyISOCountry>FR</PartyISOCountry>
+				<Siret>00000000020015</Siret>
+				<Siren>000000000</Siren>
+				<PartyTVANum>FR000000000</PartyTVANum>
+				<APENumber>3822Z</APENumber>
+				<PhoneNumber>04.72.47.95.00</PhoneNumber>
+				<FaxNumber>04.72.47.95.01</FaxNumber>
+				<Status>SAS</Status>
+				<Capital>5165300</Capital>
+				<RCS>RCS LYON 444548440</RCS>
+			</SiegeSocial>
+		</InfosEmetteur>
+		<InfosDestinataire>
+			<Destinataire>
+				<PartyType>IV</PartyType>
+				<PartyRef>Y321308</PartyRef>
+				<EANCode>4062613</EANCode>
+				<Webshop>N</Webshop>
+				<PartyName1>TAA081DESTINATAIRE</PartyName1>
+				<PartyAddress1>1 rue Test</PartyAddress1>
+				<PartyCity>Test</PartyCity>
+				<PartyPostalCode>75000</PartyPostalCode>
+				<PartyISOCountry>FR</PartyISOCountry>
+				<Siret>00000000020031</Siret>
+				<Siren>000000000</Siren>
+				<PartyTVANum>FR000000000</PartyTVANum>
+			</Destinataire>
+			<LivreA>
+				<PartyType>DP</PartyType>
+				<PartyRef>Y321308</PartyRef>
+				<PartyName1>CH ANTIBES-JUAN-LES-PINS</PartyName1>
+				<PartyAddress1>107 AVENUE DE NICE</PartyAddress1>
+				<PartyCity>ANTIBES</PartyCity>
+				<PartyPostalCode>06606</PartyPostalCode>
+			</LivreA>
+		</InfosDestinataire>
+		<LigneFacture>
+			<LineType>DET</LineType>
+			<LineNum>20</LineNum>
+			<LineAnalytic />
+			<FormatPolice>G</FormatPolice>
+			<PartDesc>SOLVANTS NON HALOGENES </PartDesc>
+			<Quantity>110</Quantity>
+			<UnitOfMeasure>KGM</UnitOfMeasure>
+			<GrossUnitPrice>0.8</GrossUnitPrice>
+			<UnitPrice>0.8</UnitPrice>
+			<LineItemSubTotal>88.0</LineItemSubTotal>
+			<TaxPercent>20.0</TaxPercent>
+			<SupplierShunting>02</SupplierShunting>
+			<PONum />
+			<DeliveryDate>2017-02-07</DeliveryDate>
+			<CodePrestation>92</CodePrestation>
+			<CEDRef>180106*</CEDRef>
+			<CEDTxt>Produits chimiques à base de ou contenant des substances dangereuses</CEDTxt>
+			<NumBSDBuyer>0862912</NumBSDBuyer>
+			<NumBSD2Vendor>0862912</NumBSD2Vendor>
+			<CommercialFileNum>2010020034</CommercialFileNum>
+			<ReceiptNum>2017020089</ReceiptNum>
+			<ReceiptDate>2017-02-07</ReceiptDate>
+			<PackagingMode>Bidon 10 litres</PackagingMode>
+			<Party>
+				<PartyType>DP</PartyType>
+				<PartyRef />
+				<PartyName1>CH ANTIBES-JUAN-LES-PINS</PartyName1>
+				<PartyAddress1>107 AVENUE DE NICE</PartyAddress1>
+				<PartyCity>ANTIBES</PartyCity>
+				<PartyPostalCode>06606</PartyPostalCode>
+			</Party>
+		</LigneFacture>
+		<LigneFacture>
+			<LineType>DET</LineType>
+			<LineNum>40</LineNum>
+			<LineAnalytic />
+			<FormatPolice>G</FormatPolice>
+			<PartDesc>BASE MINERALE </PartDesc>
+			<Quantity>112</Quantity>
+			<UnitOfMeasure>KGM</UnitOfMeasure>
+			<GrossUnitPrice>0.86</GrossUnitPrice>
+			<UnitPrice>0.86</UnitPrice>
+			<LineItemSubTotal>96.32</LineItemSubTotal>
+			<TaxPercent>20.0</TaxPercent>
+			<SupplierShunting>02</SupplierShunting>
+			<PONum />
+			<DeliveryDate>2017-02-07</DeliveryDate>
+			<CodePrestation>92</CodePrestation>
+			<CEDRef>180106*</CEDRef>
+			<CEDTxt>Produits chimiques à base de ou contenant des substances dangereuses</CEDTxt>
+			<NumBSDBuyer>0862911</NumBSDBuyer>
+			<NumBSD2Vendor>0862911</NumBSD2Vendor>
+			<CommercialFileNum>2010020034</CommercialFileNum>
+			<ReceiptNum>2017020089</ReceiptNum>
+			<ReceiptDate>2017-02-07</ReceiptDate>
+			<PackagingMode>Bidon 10 litres</PackagingMode>
+			<Party>
+				<PartyType>DP</PartyType>
+				<PartyRef />
+				<PartyName1>CH ANTIBES-JUAN-LES-PINS</PartyName1>
+				<PartyAddress1>107 AVENUE DE NICE</PartyAddress1>
+				<PartyCity>ANTIBES</PartyCity>
+				<PartyPostalCode>06606</PartyPostalCode>
+			</Party>
+		</LigneFacture>
+		<LigneFacture>
+			<LineType>DET</LineType>
+			<LineNum>60</LineNum>
+			<LineAnalytic />
+			<FormatPolice>G</FormatPolice>
+			<PartDesc>ACIDE MINERAL </PartDesc>
+			<Quantity>18</Quantity>
+			<UnitOfMeasure>KGM</UnitOfMeasure>
+			<GrossUnitPrice>0.86</GrossUnitPrice>
+			<UnitPrice>0.86</UnitPrice>
+			<LineItemSubTotal>15.48</LineItemSubTotal>
+			<TaxPercent>20.0</TaxPercent>
+			<SupplierShunting>02</SupplierShunting>
+			<PONum />
+			<DeliveryDate>2017-02-07</DeliveryDate>
+			<CodePrestation>92</CodePrestation>
+			<CEDRef>180106*</CEDRef>
+			<CEDTxt>Produits chimiques à base de ou contenant des substances dangereuses</CEDTxt>
+			<NumBSDBuyer>0862910</NumBSDBuyer>
+			<NumBSD2Vendor>0862910</NumBSD2Vendor>
+			<CommercialFileNum>2010020034</CommercialFileNum>
+			<ReceiptNum>2017020089</ReceiptNum>
+			<ReceiptDate>2017-02-07</ReceiptDate>
+			<PackagingMode>Bidon 10 litres</PackagingMode>
+			<Party>
+				<PartyType>DP</PartyType>
+				<PartyRef />
+				<PartyName1>CH ANTIBES-JUAN-LES-PINS</PartyName1>
+				<PartyAddress1>107 AVENUE DE NICE</PartyAddress1>
+				<PartyCity>ANTIBES</PartyCity>
+				<PartyPostalCode>06606</PartyPostalCode>
+			</Party>
+		</LigneFacture>
+		<LigneFacture>
+			<LineType>DET</LineType>
+			<LineNum>80</LineNum>
+			<LineAnalytic />
+			<FormatPolice>G</FormatPolice>
+			<PartDesc>SOLVANTS HALOGENES </PartDesc>
+			<Quantity>21</Quantity>
+			<UnitOfMeasure>KGM</UnitOfMeasure>
+			<GrossUnitPrice>0.8</GrossUnitPrice>
+			<UnitPrice>0.8</UnitPrice>
+			<LineItemSubTotal>16.8</LineItemSubTotal>
+			<TaxPercent>20.0</TaxPercent>
+			<SupplierShunting>02</SupplierShunting>
+			<PONum />
+			<DeliveryDate>2017-02-07</DeliveryDate>
+			<CodePrestation>92</CodePrestation>
+			<CEDRef>180106*</CEDRef>
+			<CEDTxt>Produits chimiques à base de ou contenant des substances dangereuses</CEDTxt>
+			<NumBSDBuyer>0862909</NumBSDBuyer>
+			<NumBSD2Vendor>0862909</NumBSD2Vendor>
+			<CommercialFileNum>2010020034</CommercialFileNum>
+			<ReceiptNum>2017020089</ReceiptNum>
+			<ReceiptDate>2017-02-07</ReceiptDate>
+			<PackagingMode>Bidon 10 litres</PackagingMode>
+			<Party>
+				<PartyType>DP</PartyType>
+				<PartyRef />
+				<PartyName1>CH ANTIBES-JUAN-LES-PINS</PartyName1>
+				<PartyAddress1>107 AVENUE DE NICE</PartyAddress1>
+				<PartyCity>ANTIBES</PartyCity>
+				<PartyPostalCode>06606</PartyPostalCode>
+			</Party>
+		</LigneFacture>
+		<LigneFacture>
+			<LineType>DET</LineType>
+			<LineNum>100</LineNum>
+			<LineAnalytic />
+			<FormatPolice />
+			<PartDesc>VENTE BIDON ETIQUETE 10 LITRES</PartDesc>
+			<PartDescComp>
+				<Desc>Réception N° 2017020089 du 07/02/2017</Desc>
+			</PartDescComp>
+			<Quantity>20</Quantity>
+			<UnitOfMeasure>UOE</UnitOfMeasure>
+			<GrossUnitPrice>2.4</GrossUnitPrice>
+			<UnitPrice>2.4</UnitPrice>
+			<LineItemSubTotal>48.0</LineItemSubTotal>
+			<TaxPercent>20.0</TaxPercent>
+			<SupplierShunting>02</SupplierShunting>
+			<PONum />
+			<DeliveryDate>2017-02-07</DeliveryDate>
+			<CodePrestation>198</CodePrestation>
+			<CEDRef />
+			<CEDTxt />
+			<NumBSDBuyer />
+			<NumBSD2Vendor />
+			<CommercialFileNum>2010020034</CommercialFileNum>
+			<ReceiptNum>2017020089</ReceiptNum>
+			<PackagingMode />
+			<Party>
+				<PartyType>DP</PartyType>
+				<PartyRef />
+				<PartyName1>CH ANTIBES-JUAN-LES-PINS</PartyName1>
+				<PartyAddress1>107 AVENUE DE NICE</PartyAddress1>
+				<PartyCity>ANTIBES</PartyCity>
+				<PartyPostalCode>06606</PartyPostalCode>
+			</Party>
+		</LigneFacture>
+		<LigneFacture>
+			<LineType>DET</LineType>
+			<LineNum>120</LineNum>
+			<LineAnalytic />
+			<FormatPolice />
+			<PartDesc>TRANSPORT / COLLECTE</PartDesc>
+			<PartDescComp>
+				<Desc>Réception N° 2017020089 du 07/02/2017  transport/collecte, prestation mensuelle de 21 à 30 bidons</Desc>
+			</PartDescComp>
+			<Quantity>1</Quantity>
+			<UnitOfMeasure>FOR</UnitOfMeasure>
+			<GrossUnitPrice>472.0</GrossUnitPrice>
+			<UnitPrice>472.0</UnitPrice>
+			<LineItemSubTotal>472.0</LineItemSubTotal>
+			<TaxPercent>20.0</TaxPercent>
+			<SupplierShunting>02</SupplierShunting>
+			<PONum />
+			<DeliveryDate>2017-02-07</DeliveryDate>
+			<CodePrestation>104</CodePrestation>
+			<CEDRef />
+			<CEDTxt />
+			<NumBSDBuyer />
+			<NumBSD2Vendor />
+			<CommercialFileNum>2010020034</CommercialFileNum>
+			<ReceiptNum>2017020089</ReceiptNum>
+			<PackagingMode />
+			<Party>
+				<PartyType>DP</PartyType>
+				<PartyRef />
+				<PartyName1>CH ANTIBES-JUAN-LES-PINS</PartyName1>
+				<PartyAddress1>107 AVENUE DE NICE</PartyAddress1>
+				<PartyCity>ANTIBES</PartyCity>
+				<PartyPostalCode>06606</PartyPostalCode>
+			</Party>
+		</LigneFacture>
+		<LigneFacture>
+			<LineType>DET</LineType>
+			<LineNum>130</LineNum>
+			<LineAnalytic />
+			<FormatPolice />
+			<PartDesc>TGAP</PartDesc>
+			<Quantity>0.261</Quantity>
+			<UnitOfMeasure>TNE</UnitOfMeasure>
+			<GrossUnitPrice>12.78</GrossUnitPrice>
+			<UnitPrice>12.78</UnitPrice>
+			<LineItemSubTotal>3.34</LineItemSubTotal>
+			<TaxPercent>20.0</TaxPercent>
+			<SupplierShunting>02</SupplierShunting>
+			<PONum />
+			<CodePrestation>128</CodePrestation>
+			<CEDRef />
+			<CEDTxt />
+			<NumBSDBuyer />
+			<CommercialFileNum />
+			<PackagingMode />
+			<Party>
+				<PartyType />
+				<PartyRef />
+				<PartyName1 />
+				<PartyAddress1 />
+				<PartyCity />
+				<PartyPostalCode />
+			</Party>
+		</LigneFacture>
+		<LigneTVA>
+			<TaxableAmount>739.94</TaxableAmount>
+			<TaxPercent>20.0</TaxPercent>
+			<TaxAmount>147.99</TaxAmount>
+			<GrossAmount>887.93</GrossAmount>
+			<TaxMode>ENC</TaxMode>
+		</LigneTVA>
+		<TotalFacture>
+			<TotalNet>739.94</TotalNet>
+			<TotalNetAmount>739.94</TotalNetAmount>
+			<TotalTaxAmount>147.99</TotalTaxAmount>
+			<TotalDiscount>11.11</TotalDiscount>
+			<GrossAmount>887.93</GrossAmount>
+			<SubventionAmount>0.0</SubventionAmount>
+			<PaymentAmount>887.93</PaymentAmount>
+		</TotalFacture>
+	</Facture>
+</Facture-TESSI_INVOICE>
